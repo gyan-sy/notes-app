@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pwa-notes-app/static/css/main.ffb7428b.css",
+    "main.js": "/pwa-notes-app/static/js/main.4ac7b180.js",
+    "static/js/787.ade4cc30.chunk.js": "/pwa-notes-app/static/js/787.ade4cc30.chunk.js",
+    "index.html": "/pwa-notes-app/index.html",
+    "main.ffb7428b.css.map": "/pwa-notes-app/static/css/main.ffb7428b.css.map",
+    "main.4ac7b180.js.map": "/pwa-notes-app/static/js/main.4ac7b180.js.map",
+    "787.ade4cc30.chunk.js.map": "/pwa-notes-app/static/js/787.ade4cc30.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffb7428b.css",
+    "static/js/main.4ac7b180.js"
+  ]
+}

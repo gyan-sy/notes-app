@@ -1,0 +1,62 @@
+.note-container {
+    height: 100%;
+    width: 100%;
+}
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-header h1{
+    font-family:sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #202124;
+}
+
+.no-notes-label h3{
+    color: #202124;
+    padding-top: 20px;
+}
+
+.search-bar input{
+    background-color: #D6D6D7;
+    width: 100%;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+.search-bar input:focus{
+    outline: none;
+}
+
+.note-container-notes {
+    height: 90%;
+    display: flex;
+    padding-bottom: 4rem;
+    flex-wrap: wrap;        /* when window is resized elements can be on multiple lines not only in 1*/
+    gap: 20px 32px;              /* gap b/w elements*/
+    overflow: scroll;       /* only notes container part will scroll not the whole app*/
+}
+
+@media only screen and (max-width: 767px) {
+    .note-container {
+        padding-bottom: 4rem;
+    }
+
+    .note-container-notes {
+        border-radius: 30px;
+        padding-bottom: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 1080px) and (orientation:landscape) {
+    .note-container-notes {
+        padding-bottom: 6rem;
+    }
+ }

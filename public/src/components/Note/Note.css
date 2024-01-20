@@ -1,0 +1,56 @@
+.note {
+    padding: 25px;
+    height: 300px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    border-radius: 30px;
+}
+
+.note-topic {
+    resize: none;
+    font-family: sans-serif;
+    background-color: transparent;
+    font-size: 1.3rem;
+    font-weight: 800;
+    outline: none;
+    border: none;
+    margin-top: -5px;
+}
+
+.note-text {
+    flex: 1;  /* Using this textarea takes as much space is available in div*/
+    resize: none;
+    font-family: sans-serif;
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    outline: none;
+    border: none;
+}
+
+.note-footer{
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delete-icon {
+    cursor: pointer;
+    opacity: 0;
+    transition: 300ms;
+}
+
+.note:hover .delete-icon{
+    opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+    .note {
+        width: 100%;
+        max-width: 400px; /* Set a maximum width if needed */
+    }
+}
+  

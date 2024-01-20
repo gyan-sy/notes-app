@@ -1,0 +1,42 @@
+{
+    "name": "Keep Notes",
+    "short_name": "Keep Notes",
+    "description": "App for keeping notes locally",
+    "lang": "en-US",
+    "scope": "./",
+    "display_override": [
+      "window-controls-overlay"
+    ],
+    "screenshots" : [
+      {
+        "src": "desktop-screenshot.png",
+        "sizes": "1920x977",
+        "type": "image/png",
+        "form_factor":"wide",
+        "platform": "wide",
+        "label": "Dark Mode"
+      },
+      {
+        "src": "mobile-screenshot.png",
+        "sizes": "1080x2273",
+        "type": "image/png",
+        "label": "Dark Mode"
+      }
+    ],  
+    "icons": [
+      {
+        "src": "notes-app.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": ".",
+    "orientation": "any",
+    "display": "standalone",
+    "theme_color": "#202124",
+    "background_color": "#202124",
+    "serviceworker": {
+      "src": "/service-worker.js",
+      "scope": "/"
+    }
+  }
